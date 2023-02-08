@@ -48,6 +48,7 @@ def validate_html(html):
     else:
         return False
 
+
 def _extract_tags(html):
     '''
     This is a helper function for `validate_html`.
